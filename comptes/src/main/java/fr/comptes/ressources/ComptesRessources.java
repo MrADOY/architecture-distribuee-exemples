@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("comptes")
+@RequestMapping
 public class ComptesRessources {
 
     @Autowired

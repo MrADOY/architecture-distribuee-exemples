@@ -1,6 +1,7 @@
 server:
   port: 8081
-
+  servlet:
+    context-path: /cartes
 spring:
   application:
     name: cartes

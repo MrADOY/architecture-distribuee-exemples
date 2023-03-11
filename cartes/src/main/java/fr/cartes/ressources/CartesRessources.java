@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@RequestMapping("cartes")
+@RequestMapping
 public class CartesRessources {
     @Value("${server.port}")
     private int serverPort;
